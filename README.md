@@ -21,6 +21,7 @@ It's recommended to use a virtual environment to keep dependencies isolated. You
 
 ```bash
 python3 -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process # on windows powershell
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate
 pip install -r requirements.txt
 ```

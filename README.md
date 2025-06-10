@@ -5,6 +5,7 @@ This project implements a simple Bayesian approach to adaptively select the next
 ## Project Structure
 
 - `selector.py`: Main class implementing the Bayesian update and selection logic.
+- `question.py`: Question class implementing question text, correct answer and means for asking questions.
 - `utils.py`: Helper functions for reporting and debugging.
 - `example_usage.py`: Demonstrates usage of the selector with simulated responses.
 - `tests/test_selector.py`: Unit tests for the selector logic.
